@@ -1,0 +1,16 @@
+Hello
+I finished the assessment using POSTMAN for JWT Authentication and Authorization, 
+The databaase I used is phpmyadmin, and I generated tables using migration 
+I covered Database setup and integred, the name of my database is RDC, but either name would be fine considering
+creating tables is via migration. Compeleted User Registration and Authentication with a JWT Token.
+Used Token refresh mechanism so a token for each user has a expiry time of one hour.
+Covered User Profile endpoint, user information will be showed with the correct JWT Token, if it's a different token 
+the code will throw an error . JWT secrets and database credentials are secured and stored via .env, but 
+when I use .gitignore, the current .env I have will be blocked when pushing to github.
+
+
+
+Thank you for this assessment.
+
+        - William Lurare
+
